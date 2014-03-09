@@ -1,6 +1,7 @@
 function A = row_reduce_p(A, mod_p)
 
 % This function row reduces matrix A to (reduced) row echelon form modulo p.
+% For practical purposes, MOD_P is usually prime.
 
 [r, c] = size(A);
 

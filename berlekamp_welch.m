@@ -9,7 +9,8 @@ function msg = berlekamp_welch(R, num_err, mod_p)
 %                         m_1  m_2 ... m_n
 % for a message of length n.
 %
-% Operations and messages are in modulo MOD_P.
+% Operations and messages are in modulo MOD_P, where MOD_P
+% is prime.
 %
 %% More on Algorithm 
 %
