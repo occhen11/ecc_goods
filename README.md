@@ -1,16 +1,18 @@
 #Error-Correcting Code Goods for MATLAB
-##(ecc_goods)
+**(ecc_goods)**
+MATLAB scripts and functions for error-correcting codes
+
 
 ###berlekamp_welc.m
 This function uses the Berlekamp-Welch Algorithm to recover the original, uncorrupted n-length message of a received and potentially corrupted message 
 
- -> r<sub>1</sub> r<sub>2</sub> r<sub>3</sub> ...r<sub>n+2k</sub>, <-
+*r<sub>1</sub> r<sub>2</sub> r<sub>3</sub> ...r<sub>n+2k</sub>*,
                 
 which is expected to have at most k corruption errors.
 
 The recovered message returned by this function is in the form
 
- -> m<sub>1</sub> m<sub>2</sub> ... m<sub>n</sub> <-
+*m<sub>1</sub> m<sub>2</sub> ... m<sub>n</sub> *
  
 and has length n.
 
