@@ -107,7 +107,7 @@ disp(E);
 
 % If there exists a remainder, there were more errors than
 % buffered for or some another error occurred.
-if (r ~= 0)
+if (any(mod(r, 11) ~= 0))
     error('Message could not be recovered; more than k errors. ');
 end
 
